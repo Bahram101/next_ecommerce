@@ -25,7 +25,7 @@ const Header = () => {
           </Link>
         </div>
         <div className="space-x-2">
-          <ModeToggle/>
+          <ModeToggle />
           <Button asChild variant="ghost">
             <Link href="/cart">
               <ShoppingCart /> Cart
