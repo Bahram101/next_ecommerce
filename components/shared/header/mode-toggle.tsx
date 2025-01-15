@@ -1,5 +1,6 @@
 "use client";
-
+import { useState, useEffect } from "react";
+import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,
   DropdownMenuTrigger,
@@ -10,8 +11,6 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { useTheme } from "next-themes";
 import { SunIcon, MoonIcon, SunMoon } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { useEffect, useState } from "react";
 
 const ModeToggle = () => {
   const [mounted, setMounted] = useState(false);
